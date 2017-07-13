@@ -135,7 +135,7 @@
 
     if (_IQcanBecomeFirstResponder == YES)
     {
-        _IQcanBecomeFirstResponder = ([self isUserInteractionEnabled] && ![self isHidden] && [self alpha]!=0.0 && ![self isAlertViewTextField]  && ![self isSearchBarTextField]);
+        _IQcanBecomeFirstResponder = ([self isUserInteractionEnabled] && ![self isHidden] && [self alpha]!=0.0 && ![self isAlertViewTextField]);
     }
     
     return _IQcanBecomeFirstResponder;
